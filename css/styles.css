@@ -1,0 +1,136 @@
+/* global styles */
+body {
+    font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', 'Arial', 'Verdana', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+    background-color: #ffffff;
+}
+h1 {
+    font-size: 56px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    line-height: 1.07;
+}
+
+h2 {
+    font-size: 36px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: 0px 4px 4px #00000015;
+    color: #ffffff;
+    background-color: #4D5AE5;
+}
+
+button:hover, button:focus {
+    cursor: pointer;
+    background-color: #404BBF;
+}
+
+        /* ELEMENTS STYLES */
+
+/* header */
+.navigation-menu .navigation-link {
+    color: #2E2F42;
+    font-weight: 500;
+}
+.navigation-menu .navigation-link:hover, .navigation-menu .navigation-link:focus{ 
+    color: #404BBF;
+}
+
+.nav-contacts .address-link {
+    color: #2E2F42;
+    font-style: normal;
+}
+
+.nav-contacts .address-link:hover, .nav-contacts .address-link:focus {
+    color: #404BBF;
+}
+
+.header-navigation .logo {
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.header-navigation .logo-start {
+    color: #4D5AE5;
+}
+/* hero */
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero .main-heading {
+    color:#ffffff;
+}
+
+/* team */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.members .team-member {
+    width: 264px;
+    height: 380px;
+    box-shadow: 0px 1px 6px #2E2F4210;
+}
+
+/* Portfolio */
+
+.projects .project-card {
+    width: 360px;
+    height: 420px;
+    box-shadow: 0px 1px 6px #2E2F4210;
+}
+
+/* Footer */
+.bottom {
+    background-color: #2E2F42;
+}
+
+.bottom .bottom-text {
+    color: #ffffff;
+}
+
+.bottom .logo {
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.bottom .logo-start {
+    color: #4D5AE5;
+}
