@@ -103,6 +103,9 @@ button:hover, button:focus {
 .hero .main-heading {
     color:#ffffff;
     text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .hero-cta {
@@ -120,7 +123,6 @@ button:hover, button:focus {
 }
 
 
-
 /* team */
 
 .team {
@@ -128,9 +130,12 @@ button:hover, button:focus {
 }
 
 .section-heading {
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .members .team-member {
@@ -139,6 +144,10 @@ button:hover, button:focus {
 
 .members .member-name {
     line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .member-role {
@@ -148,7 +157,12 @@ button:hover, button:focus {
 /* Portfolio */
 
 .project-title {
+    font-weight: 500;
     line-height: 1.2;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 /* Footer */
